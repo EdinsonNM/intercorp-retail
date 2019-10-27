@@ -1,3 +1,15 @@
+# Intercorp Retail
+
+Proyecto creado por Edinson Nuñez More.
+
+## Tecnologías
+
+- Javascript
+- React
+- Sass
+- Firebase/Firestore
+- Programación reactiva (Rxjs)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
