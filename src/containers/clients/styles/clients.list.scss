@@ -1,0 +1,28 @@
+.clients-list{
+  margin-bottom: 50px;;
+    h3{
+        text-align: left;
+        color: rgba(0, 0, 0, 0.54);
+        font-weight: 500;
+        font-size: 18px;
+        small{
+            color: #c8c8c8;
+            text-align: left;
+            font-size: 12px;
+        }
+    }
+
+   &__empty{
+        color: #c8c8c8;
+        font-size: 20px;;
+        img{
+            filter: opacity(.1);
+            -webkit-filter: opacity(.1);
+            width: 60%;
+        }
+    }
+    &__list{
+        list-style: none;
+        padding: 0;
+    }
+}

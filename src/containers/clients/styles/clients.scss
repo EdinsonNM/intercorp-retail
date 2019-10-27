@@ -1,0 +1,16 @@
+.clients{
+    &-iconadd{
+        cursor: pointer;
+        position: absolute;
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+        color: white;
+        right: 10px;
+        top: 10px;
+        user-select: none;
+        span{
+            font-size: 32px!important;
+        }
+    }
+}

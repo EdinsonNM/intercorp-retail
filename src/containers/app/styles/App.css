@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  position: relative;;
+}
+
+.App-bg {
+  height: 250px;
+  background: linear-gradient(145deg, #90BC79 60%, rgb(119, 160, 97) 60%);
+  z-index: 0;
+
+}
+.App-header {
+  z-index: 1;
+  margin-top: -165px;
+  margin-bottom: 60px;
+  color: white;
+  
+
+}
+.App-container {
+  z-index: 1;
+  margin: auto;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 10px;
+  max-width: 480px;
+  min-height: 300px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+@media(max-width: 480px){
+  .App-bg {
+    height: 60vmin;
+  
+  }
+  .App-header {
+    margin-top: -140px;
+  }
+}

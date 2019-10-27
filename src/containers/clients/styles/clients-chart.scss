@@ -1,0 +1,13 @@
+.clients-chart {
+    > div {
+        margin: auto;
+    }
+    &__info {
+        padding: 10px;
+        &__label {
+            text-align: left;
+            color: #8b8b8b;
+            font-size: 11px;
+        }
+    }
+}
